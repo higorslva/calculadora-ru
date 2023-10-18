@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Refeições</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+<body>
+    <div class="calculator-card">
+        <h1>Calculadora de Refeições - RU UNIFAP</h1>
+        
+        <div class="meal-card">
+            <h2>Café (Unidade R$0.75)</h2>
+            <div class="item">
+                <label for="cafe">Quantidade:</label>
+                <input type="number" id="cafe" min="0" value="0">
+            </div>
+        </div>
+
+        <div class="meal-card">
+            <h2>Almoço (Unidade R$1.50)</h2>
+            <div class="item">
+                <label for="almoco">Quantidade:</label>
+                <input type="number" id="almoco" min="0" value="0">
+            </div>
+        </div>
+
+        <div class="meal-card">
+            <h2>Janta (Unidade R$1.50)</h2>
+            <div class="item">
+                <label for="janta">Quantidade:</label>
+                <input type="number" id="janta" min="0" value="0">
+            </div>
+        </div>
+
+        <div class="total" id="total">Total: R$ 0.00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
